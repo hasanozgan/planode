@@ -1,0 +1,39 @@
+@import url("bootstrap-responsive.min.css");
+@import url("bootstrap.min.css");
+@import url("bootstrap-datepicker.css");
+@import url("jquery-ui-flick-1.8.14.css");
+@import url("jquery.timepicker.css");
+@import url("fullcalendar.css");
+@import url("calendar-colors.css");
+
+body {
+    margin-top:60px;
+}
+
+.templates-container {
+
+}
+
+.table-striped {
+    font-size: 12px;
+}
+
+.ui-datepicker {
+    font-size:12px;
+    width: 147px;
+}
+
+input {
+    height: 26px;
+}
+
+.logomogo {
+    background: url("../images/fire_icon&24.png") no-repeat;
+    padding-left: 27px;
+    padding-right: 5px;
+    height:24px;
+}
+
+.search-query {
+    height: 28px;
+}
