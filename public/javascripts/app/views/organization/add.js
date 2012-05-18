@@ -4,27 +4,17 @@ define([
     'underscore',
     'backbone',
 
-    'app/views/common/sidebar',
+    'bootstrap'
+], function($, _, Backbone) {
 
-    'bootstrap',
-    'fullcalendar'
+    var SettingsPage = Backbone.View.extend({
 
-], function($, _, Backbone, SideBarView) {
+        el: $("#account-settings"),
 
-    var OrganizationPage = Backbone.View.extend( {
-        el: $("#page"),
-
-        organization_id: 0,
-
-        events: {
-            "click .delete-organization": "deleteOrganization",
-            "click .update-organization": "updateOrganization"
-        },
-
-        updateOrganization: function() {
+        render: function() {
 
             var OrganizationModel = Backbone.Model.extend({
-                url: "/organization/update",
+                url: "/organization/add",
 
                 rules: {
                     name: {
@@ -88,72 +78,48 @@ define([
                 }
             });
 
-            var organizationModel = new OrganizationModel({});
-            organizationModel.set({id: this.organization_id});
+            this.model = new OrganizationModel({});
 
-            var succeed = true;
-
-            if (organizationModel.isValid()) {
-                organizationModel.save(null,
-                    {
-                        error: function(model, response) {
-                            messages = JSON.parse(response.responseText);
-                            succeed = false;
-                            for (key in messages) {
-                                if (key == "__alert__") {
-                                    model.showMessage("error", messages[key]);
-                                }
-                                else {
-                                    model.showFieldMessage("error", key, messages[key]);
-                                }
-                            }
-                        },
-                        success: function (model, response) {
-                            App.editOrganization(response);
-                            SideBarView.render(true);
-                        }
-                    }
-                );
-            }
-
-            return false;
-        },
-
-        deleteOrganization: function() {
             var base = this;
-            $.ajax({
-                url: "/organization/delete/"+this.organization_id,
-                type: "DELETE",
-                success: function() {
-                    App.deleteOrganization(base.organization_id);
-                    App.router.navigate("calendar", true);
+
+            require(['text!app/views/organization/add.html',
+                     'app/views/common/sidebar'], function(OrganizationTemplate, SideBarView) {
+
+                $(".modal").empty();
+                var compiledTemplate = _.template( OrganizationTemplate, {_:_} );
+                $(compiledTemplate).modal();
+
+                $(".save-organization-add").on('click', function () {
+                    var succeed = true;
+
+                    if (base.model.isValid()) {
+                        base.model.save(null, {
+                            error: function(model, response) {
+                                messages = JSON.parse(response.responseText);
+                                succeed = false;
+                                for (key in messages) {
+                                    if (key == "__alert__") {
+                                        model.showMessage("error", messages[key]);
+                                    }
+                                    else {
+                                        model.showFieldMessage("error", key, messages[key]);
+                                    }
+                                }
+                            },
+                            success: function (model, response) {
+                                App.addOrganization(response);
+                                SideBarView.render(true);
+                                $(".modal-organization-add.in").modal('hide');
+                            }
+                        });
+                    }
+
                     return false;
-                }
-            });
+                });
 
-            return false;
-        },
-
-        render: function(pOrganizationId) {
-
-            this.organization_id = pOrganizationId;
-
-            require(['text!app/views/organization/settings.html'], function(OrganizationTemplate) {
-
-                var compiledTemplate = _.template( OrganizationTemplate, { "organization_name": App.getOrganization(pOrganizationId).name } );
-
-                $("#page").empty();
-                $("#page").html(compiledTemplate);
-
-                $('a[data-toggle="tab"]').on('shown', function (e) {
-                    console.log($(e.target).attr("href"));
-                    e.target // activated tab
-                    e.relatedTarget // previous tab
-                })
             });
         }
-
     });
 
-    return new OrganizationPage;
+    return new SettingsPage ;
 });

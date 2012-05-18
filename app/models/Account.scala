@@ -10,7 +10,14 @@ case class Account(id: Long, email: String, fullname: String, password: String)
 
 object Account {
 
-  // -- Parsers
+  object Role extends Enumeration {
+    type Role = Int
+
+    val Owner = 1
+    val Admin = 2
+    val Member = 3
+    val Guest = 4
+  }
 
   /**
    * Parse a User from a ResultSet
@@ -83,24 +90,57 @@ object Account {
   /**
    * Create a User.
    */
-  def create(account: Account): Account = {
+  def create(fullname: String, email: String, password: String): Option[Account] = {
     DB.withConnection {
       implicit connection =>
-
         SQL(
           """
-          insert into user values (
-            {email}, {fullname}, {password}
+          insert into acl_user(email, fullname, password, created_at, updated_at) values (
+            {email}, {fullname}, {password}, now(), now()
           )
           """
         ).on(
-          'email -> account.email,
-          'fullname -> account.fullname,
-          'password -> account.password
+          'email -> email,
+          'fullname -> fullname,
+          'password -> password
         ).executeInsert()
 
-        account
+        findByEmail(email)
+    }
+  }
 
+
+  def update(id:Long, fullname: String, email: String, password: String): Option[Account] = {
+    DB.withConnection {
+      implicit connection =>
+
+        if (password.length == 32) {
+          SQL(
+            """
+              update acl_user set email={email}, fullname={fullname}, password={password}, updated_at=now()
+              where id_acl_user={id}
+            """
+          ).on(
+            'id -> id,
+            'fullname -> fullname,
+            'email -> email,
+            'password -> password
+          ).executeUpdate()
+        }
+        else {
+          SQL(
+            """
+              update acl_user set email={email}, fullname={fullname}, updated_at=now()
+              where id_acl_user={id}
+            """
+          ).on(
+            'id -> id,
+            'fullname -> fullname,
+            'email -> email
+          ).executeUpdate()
+        }
+
+        findByEmail(email)
     }
   }
 

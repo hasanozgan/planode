@@ -2,7 +2,7 @@
 define([
     'underscore',
     'backbone',
-    'app/models/organization',
+    'app/models/organization'
 
 ], function($, _, Backbone) {
 

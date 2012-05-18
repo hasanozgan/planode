@@ -1,33 +1,38 @@
-<div class="modal" style="display: none;" id="account-settings">
+<div class="modal" style="display: none;">
     <div class="modal-header">
         <a class="close" data-dismiss="modal">×</a>
         <h3>Ayarlar</h3>
     </div>
     <div class="modal-body">
-        <form id="edit-profile" class="form-horizontal">
+        <form class="form-horizontal frm-account-settings">
             <fieldset>
                 <div class="control-group">
                     <label class="control-label" for="fullname">Adı, Soyadı</label>
                     <div class="controls">
-                        <input class="input-xlarge" name="fullname" id="fullname" type="text">
+                        <input class="input-xlarge" name="fullname" id="fullname" type="text" value="<%= fullname %>" />
+                        <p class="help-block"></p>
                     </div>
+
                 </div>
                 <div class="control-group">
                     <label class="control-label" for="email">Eposta</label>
                     <div class="controls">
-                        <input class="input-xlarge" id="email" value="" type="text">
+                        <input class="input-xlarge" id="email" name="email" value="<%= email %>" type="text">
+                        <p class="help-block"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <label class="control-label" for="password">Şifre</label>
                     <div class="controls">
-                        <input class="input-xlarge" id="password" value="" type="text">
+                        <input class="input-xlarge" id="password" name="password" value="" type="password">
+                        <p class="help-block"></p>
                     </div>
                 </div>
                 <div class="control-group">
-                    <label class="control-label" for="password-again">Şifre Onayı</label>
+                    <label class="control-label" for="password_confirmation">Şifre Onayı</label>
                     <div class="controls">
-                        <input class="input-xlarge" id="password-again" value="" type="text">
+                        <input class="input-xlarge" id="password_confirmation" name="password_confirmation" value="" type="password">
+                        <p class="help-block"></p>
                     </div>
                 </div>
             </fieldset>
@@ -35,6 +40,7 @@
     </div>
     <div class="modal-footer">
         <a href="#" class="btn"  data-dismiss="modal">Kapat</a>
-        <a href="#" class="btn btn-primary">Kaydet</a>
+        <a href="#" class="btn btn-primary save-account-settings">Kaydet</a>
     </div>
+
 </div>

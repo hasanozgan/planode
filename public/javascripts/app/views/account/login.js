@@ -117,9 +117,7 @@ define([
                         messages = JSON.parse(response.responseText);
                         succeed = false;
                         for (key in messages) {
-
                             if (key == "__alert__") {
-
                                 model.showMessage("error", messages[key]);
                             }
                             else {
@@ -128,9 +126,7 @@ define([
                         }
                     },
                     success: function (model, response) {
-                        console.log(response);
-                        //messages = JSON.parse(response.responseText);
-                        App.user = "user";
+                        App.user = response;
                         App.router.navigate("calendar", true);
                     }
                 });

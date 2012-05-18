@@ -1,92 +1,90 @@
 <div>
-    <h2 style="border-bottom:1px solid #EEE; margin-bottom: 10px; padding-bottom:5px;">Cihangir Yoga</h2>
+    <h2 style="border-bottom:1px solid #EEE; margin-bottom: 10px; padding-bottom:5px;">
+        <%= organization_name %>
+    </h2>
 
-    <div class="tabbable tabs-right" style="float:right;">
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="#rA" data-toggle="tab">Kategori</a></li>
-            <li><a href="#rB" data-toggle="tab">Lokasyon</a></li>
-            <li><a href="#rC" data-toggle="tab">Üyeler</a></li>
-            <li><a href="#rD" data-toggle="tab">Site Eklentisi</a></li>
-        </ul>
-    </div>
-    <div class="tab-content" style="float:left; width:650px;">
-        <div class="tab-pane active" id="rA">
-
-            <ul class="breadcrumb">
-                <li>
-                    <a href="#">Cihangir Yoga</a> <span class="divider">/</span>
-                </li>
-
-                <li class="active">Kategori</li>
+    <div class="row" style="padding-left: 20px;">
+        <div id="organization-settings" class="tabbable tabs-right" style="float:right;">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#settings" data-toggle="tab">Ayarlar</a></li>
+                <li><a href="#category" data-toggle="tab">Kategori</a></li>
+                <li><a href="#location" data-toggle="tab">Lokasyon</a></li>
+                <li><a href="#member" data-toggle="tab">Üyeler</a></li>
+                <li><a href="#widget" data-toggle="tab">Site Eklentisi</a></li>
             </ul>
-            <div class="row-fluid">
-                <div>
+        </div>
+        <div class="tab-content" style="float:left; width:650px;">
+            <div class="tab-pane active" id="settings">
+                <h3>Ayarlar</h3>
 
-                    <form>
-                        <table class="table table-striped table-bordered ">
-                            <thead>
-                            <tr>
-                                <th>#</th>
-                                <th>Description</th>
-                                <th>Action</th>
+                <form class="form-horizontal frm-organization" style="margin-top:20px;">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" style="text-align: left;" for="organization_name">Organizasyon Adı</label>
+                            <div class="controls">
+                                <input class="input-xlarge" name="name" id="organization_name" type="text" value="<%= organization_name %>" />
+                                <p class="help-block"></p>
+                            </div>
 
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td><i class="icon-file"></i> Invoice #1 </td>
-                                <td width="15%">
-                                    <div class="btn-group">
-                                        <a class="tooltip-top btn" href="#" data-original-title="Sil"><i class="icon-trash"></i></a>
-                                    </div></td>
-                                <td width="1%">
-                                    <input type="checkbox">
-                                </td>
-                            </tr>
-
-                            </tbody>
-                        </table>
-                        <div class="pull-right">
-                            <button class="delete btn btn-info" type="button">
-                                <i class="icon-white icon-plus-sign"></i> Ekle
-                            </button>
                         </div>
-                        <div class="pagination">
-                            <ul>
-                                <li>
-                                    <a href="#">«</a>
-                                </li>
-                                <li class="active">
-                                    <a href="#">1</a>
-                                </li>
-                                <li>
-                                    <a href="#">2</a>
-                                </li>
-                                <li>
-                                    <a href="#">3</a>
-                                </li>
-                                <li>
-                                    <a href="#">4</a>
-                                </li>
-                                <li>
-                                    <a href="#">»</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </form>
+                    </fieldset>
+                </form>
+                <div class="form-actions">
+                    <button class="btn btn-primary update-organization" type="submit">Kaydet</button>
+                    <button class="btn" type="reset">İptal</button>
                 </div>
+
+
+                <div class="row" style="padding-left: 20px;">
+                    <div class="alert alert-block alert-error fade in">
+
+                        <h4 class="alert-heading">Organizasyonu Sil!</h4>
+                        <p>
+                            Organizasyonu sildiğinizde, tüm etkinlikler, kategori ve lokasyon tanımlarınızı kaybedeceksiniz.<br/>
+                            Silmek istediğinizden emin misiniz?
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-danger delete-organization">Evet, Son Kararım</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane" id="category">
+                <h3>Kategori</h3>
+
+                <form class="form-horizontal" style="margin-top:20px;">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" style="text-align: left;" for="fullname">Organizasyon Adı</label>
+                            <div class="controls">
+                                <input class="input-xlarge" name="catgory_name"  type="text" value="Cihangir Yoga" />
+                                <p class="help-block"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                Balkan Yerleşkesi
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+
+            </div>
+            <div class="tab-pane" id="location">
+                <h3>Lokasyon</h3>
+            </div>
+            <div class="tab-pane" id="member">
+                <h3>Üyeler</h3>
+            </div>
+            <div class="tab-pane" id="widget">
+                <h3>Site Eklentisi</h3>
+                <br/>
+                <textarea style="width:650px" rows="5"><a href="http://pinterest.com/hasanozgan/"><img src="https://a248.e.akamai.net/passets.pinterest.com.s3.amazonaws.com/images/about/buttons/follow-me-on-pinterest-button.png" width="169" height="28" alt="Follow Me on Pinterest" /></a></textarea>
             </div>
         </div>
-        <div class="tab-pane" id="rB">
-            <p>Howdy, I'm in Section B.</p>
-        </div>
-        <div class="tab-pane" id="rC">
-            <p>What up girl, this is Section C.</p>
-        </div>
-        <div class="tab-pane" id="rD">
-            <p>What up girl, this is Section D.</p>
-        </div>
-
     </div>
+
+
 </div>

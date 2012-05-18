@@ -24,16 +24,17 @@
                 ORGANİZASYON
             </li>
             <li>
-                <a href="#organization/create" data-toggle="modal"><i class="icon-file"></i> Ekle</a>
+                <a id="organization-add" href="#organization-add"><i class="icon-file"></i> Ekle</a>
             </li>
+            <% if (organizations != undefined && organizations.length > 0) { %>
             <li class="divider"> </li>
+                <% $.each(organizations, function(key, value) { %>
+                <li>
+                    <a href="#organization/<%= value.id %>"><%= value.name %></a>
+                </li>
+                <% }); %>
+            <% } %>
 
-            <li>
-                <a href="#organization/1">Cihangir Yoga</a>
-            </li>
-            <li>
-                <a href="#organization/2">Alman Hastanesi</a>
-            </li>
         </ul>
     </div>
 </div>

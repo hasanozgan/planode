@@ -37,16 +37,59 @@ define([
 
             App = {
                 router: this,
+
+                getOrganization: function (o_id) {
+
+                    for (var index in this.organizations) {
+                        if (this.organizations[index] != undefined && this.organizations[index].id == o_id) {
+                            return this.organizations[index];
+                        }
+                    }
+                },
+
+                editOrganization: function (obj) {
+
+                    this.deleteOrganization(obj.id);
+                    this.addOrganization(obj);
+
+                },
+
+                deleteOrganization: function (o_id) {
+
+                    this.organizations = $.grep(this.organizations, function(value) {
+                        return value.id != o_id;
+                    });
+
+                },
+
+                addOrganization: function (obj) {
+                    if (this.organizations == undefined) {
+                        this.organizations = [];
+                    }
+
+                    var found = false;
+                    for (var index in this.organizations) {
+
+                        if (this.organizations[index].id == obj.id) {
+                            found = true;
+                        }
+                    }
+
+                    if (found == false) {
+                        this.organizations.push(obj);
+                    }
+                },
                 authorized: function (options) {
                     if (App.user == undefined) {
                         $.ajax({
                             url: '/auth/check',
                             type: 'POST',
                             success: function(data) {
-                                App.user = data
+                                App.user = data.account;
+                                App.organizations = data.organizations;
                                 options.success.call();
                             },
-                            error: function() {
+                            error: function(data) {
                                 if (options.error == undefined) {
                                     App.router.navigate("login", true);
                                 }
@@ -98,7 +141,7 @@ define([
         },
 
         organizationAction: function(id) {
-            AppLayout.render(OrganizationPage);
+            AppLayout.render(OrganizationPage, id);
         },
 
         defaultAction: function(actions) {

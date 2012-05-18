@@ -15,16 +15,14 @@ define([
         },
         render: function() {
 
-            var data = { _: _};
-            var compiledTemplate = _.template(NavBarTemplate, data);
-
-            $("#header").html(compiledTemplate);
+            $("#header").html(NavBarTemplate);
 
             if (App.user == null) {
                 $("#header .signed-in").hide();
                 $("#header .public").show();
             }
             else {
+                $("#fullname").html(App.user.fullname);
                 $("#header .signed-in").show();
                 $("#header .public").hide();
             }
