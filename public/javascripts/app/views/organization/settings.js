@@ -4,32 +4,30 @@ define([
     'underscore',
     'backbone',
 
-    'app/views/common/sidebar',
-
-    'bootstrap',
-    'fullcalendar'
+    'app/views/common/sidebar'
 
 ], function($, _, Backbone, SideBarView) {
 
-    var OrganizationPage = Backbone.View.extend( {
+    var SettingsPanel = Backbone.View.extend( {
         el: $("#page"),
 
         organization_id: 0,
 
         events: {
-            "click .delete-organization": "deleteOrganization",
-            "click .update-organization": "updateOrganization"
+            "click #delete-organization": "deleteOrganization",
+            "click #update-organization": "updateOrganization"
         },
 
         updateOrganization: function() {
 
+            var base = this;
             var OrganizationModel = Backbone.Model.extend({
                 url: "/organization/update",
 
                 rules: {
                     name: {
                         pattern: new RegExp(/^(.+)$/i),
-                        source: ".frm-organization input[name=name]",
+                        source: ".frm-organization-edit input[name=name]",
                         message:"Lütfen, organizasyon adını giriniz."
                     }
                 },
@@ -80,7 +78,7 @@ define([
                     }
                     if (result) {
                         this.set({
-                            name: $(this.rules.name.source).val(),
+                            name: $(this.rules.name.source).val()
                         });
                     }
 
@@ -109,8 +107,11 @@ define([
                             }
                         },
                         success: function (model, response) {
+
                             App.editOrganization(response);
+                            base.parentPanel.render(base.organization_id);
                             SideBarView.render(true);
+
                         }
                     }
                 );
@@ -122,9 +123,10 @@ define([
         deleteOrganization: function() {
             var base = this;
             $.ajax({
-                url: "/organization/delete/"+this.organization_id,
+                url: "/organization/delete/"+base.organization_id,
                 type: "DELETE",
                 success: function() {
+
                     App.deleteOrganization(base.organization_id);
                     App.router.navigate("calendar", true);
                     return false;
@@ -136,24 +138,22 @@ define([
 
         render: function(pOrganizationId) {
 
-            this.organization_id = pOrganizationId;
+            var base = this;
 
-            require(['text!app/views/organization/settings.html'], function(OrganizationTemplate) {
+            this.organization_id = parseInt(pOrganizationId);
 
-                var compiledTemplate = _.template( OrganizationTemplate, { "organization_name": App.getOrganization(pOrganizationId).name } );
+            require(['text!app/views/organization/settings.html', 'app/views/organization/panel'], function(SettingsPanelTemplate, OrganizationView) {
 
-                $("#page").empty();
-                $("#page").html(compiledTemplate);
+                base.parentPanel = OrganizationView;
 
-                $('a[data-toggle="tab"]').on('shown', function (e) {
-                    console.log($(e.target).attr("href"));
-                    e.target // activated tab
-                    e.relatedTarget // previous tab
-                })
+                var compiledTemplate = _.template( SettingsPanelTemplate, { "organization_name": App.getOrganization(pOrganizationId).name } );
+
+                $("#settings").empty();
+                $("#settings").html(compiledTemplate);
             });
         }
 
     });
 
-    return new OrganizationPage;
+    return new SettingsPanel;
 });

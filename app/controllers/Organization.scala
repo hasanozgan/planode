@@ -34,21 +34,21 @@ object Organization extends Controller with Secured {
     }
 
     val id = props.get("id") match {
-      case None => ""
+      case None => 0
       case Some(x) => {
-        x.asOpt[String].get
+        x.as[Long]
       }
     }
 
     val name = props.get("name") match {
       case None => ""
       case Some(x) => {
-        x.asOpt[String].get
+        x.as[String]
       }
     }
 
-    if (models.Organization.isAdmin(user.toLong, id.toLong)) {
-      val organization = models.Organization.updateById(id.toLong, name);
+    if (models.Organization.isAdmin(user.toLong, id)) {
+      val organization = models.Organization.updateById(id, name);
       Ok(Json.generate(organization)).as("application/json")
     } else {
       Forbidden

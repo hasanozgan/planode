@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16405b4e-2289-4839-82c6-2a0c9d329cdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/add.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/User.scala" afterPath="$PROJECT_DIR$/app/controllers/Account.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/category.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/location.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/location.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/members.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/members.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.scala" afterPath="$PROJECT_DIR$/app/controllers/Application.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Auth.scala" afterPath="$PROJECT_DIR$/app/controllers/Auth.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Organization.scala" afterPath="$PROJECT_DIR$/app/controllers/Organization.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Account.scala" afterPath="$PROJECT_DIR$/app/models/Account.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Organization.scala" afterPath="$PROJECT_DIR$/app/models/Organization.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/models/organization.js" afterPath="$PROJECT_DIR$/public/javascripts/app/models/organization.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/main.scala.html" afterPath="$PROJECT_DIR$/app/views/layouts/main.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/router.js" afterPath="$PROJECT_DIR$/public/javascripts/app/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/login.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/login.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/settings.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/settings.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/signup.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/signup.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/signup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/event/create.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/event/create.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/home/main.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/home/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/config.js" afterPath="$PROJECT_DIR$/public/javascripts/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js" afterPath="$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <ignored path="planode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,97 +114,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js">
+      <file leaf-file-name="location.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/location.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="44" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0">
+            <state line="30" column="67" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.timepicker.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="477" column="27" selection-start="10907" selection-end="10910" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="295" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/event/create.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="36" selection-start="1977" selection-end="1984" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/main.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="62" selection-start="627" selection-end="628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="3" selection-start="5049" selection-end="5050" vertical-scroll-proportion="0.4347826">
               <folding>
-                <element signature="e#563#3092#0" expanded="false" />
+                <element signature="e#243#5016#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html">
+      <file leaf-file-name="forgot.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/forgot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="945" selection-end="945" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="18" selection-end="40" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/add.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="21" selection-start="3001" selection-end="3027" vertical-scroll-proportion="-6.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Organization.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/Organization.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="53" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.330855">
-              <folding>
-                <element signature="e#16#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Organization.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Organization.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="53" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-2.7692308">
-              <folding>
-                <element signature="e#21#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="67" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Router.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///usr/local/Cellar/play-2.0/repository/local/play/play_2.9.1/2.0/jars/play_2.9.1.jar!/play/core/Router.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1050" selection-end="1195" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -223,29 +219,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/account/settings.js" />
-        <option value="$PROJECT_DIR$/app/controllers/Account.scala" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/add.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.html" />
-        <option value="$PROJECT_DIR$/app/controllers/Auth.scala" />
-        <option value="$PROJECT_DIR$/app/models/Account.scala" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/models/organization.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.js" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/add.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.html" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/category.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/members.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.js" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js" />
-        <option value="$PROJECT_DIR$/conf/routes" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/router.js" />
-        <option value="$PROJECT_DIR$/app/controllers/Organization.scala" />
-        <option value="$PROJECT_DIR$/app/models/Organization.scala" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/panel.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/location.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/location.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/home/main.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/event/create.html" />
+        <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/layouts/main.scala.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -275,6 +271,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,172 +310,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zentasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zentasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zentasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zentasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zentasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zentasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="research" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,6 +342,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,6 +444,36 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -595,7 +501,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -651,21 +587,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,51 +623,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Organization.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Account.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -759,36 +641,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1006,7 +864,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="716" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1014,7 +872,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5159664" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1122,120 +980,86 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/research/modular-backbone-updated/js/models/projects.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/members.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="26" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/research/modular-backbone-updated/js/collections/projects.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="59" column="17" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/research/zentasks/app/controllers/Application.scala">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="6" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/research/zentasks/app/models/Project.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="52" selection-start="3336" selection-end="3343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/research/zentasks/app/controllers/Projects.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/Cellar/play-2.0/repository/local/play/play_2.9.1/2.0/jars/play_2.9.1.jar!/play/core/Router.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="67" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1050" selection-end="1195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="21" selection-start="3001" selection-end="3027" vertical-scroll-proportion="-6.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="40" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="945" selection-end="945" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="47" column="10" selection-start="311" selection-end="1383" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="44" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#563#3092#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="16" column="26" selection-start="283" selection-end="347" vertical-scroll-proportion="-9.230769" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Organization.scala">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="53" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-2.7692308">
-          <folding>
-            <element signature="e#21#53#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="8" column="59" selection-start="402" selection-end="402" vertical-scroll-proportion="-5.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Organization.scala">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="53" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.330855">
+        <state line="8" column="47" selection-start="390" selection-end="402" vertical-scroll-proportion="-5.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/location.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="67" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="477" column="27" selection-start="10907" selection-end="10910" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="295" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/event/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="36" selection-start="1977" selection-end="1984" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="62" selection-start="627" selection-end="628" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/forgot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="3" selection-start="5049" selection-end="5050" vertical-scroll-proportion="0.4347826">
           <folding>
-            <element signature="e#16#36#0" expanded="true" />
+            <element signature="e#243#5016#0" expanded="false" />
           </folding>
         </state>
       </provider>

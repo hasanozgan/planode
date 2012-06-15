@@ -1,90 +1,33 @@
-<div>
-    <h2 style="border-bottom:1px solid #EEE; margin-bottom: 10px; padding-bottom:5px;">
-        <%= organization_name %>
-    </h2>
+<h3>Ayarlar</h3>
 
-    <div class="row" style="padding-left: 20px;">
-        <div id="organization-settings" class="tabbable tabs-right" style="float:right;">
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#settings" data-toggle="tab">Ayarlar</a></li>
-                <li><a href="#category" data-toggle="tab">Kategori</a></li>
-                <li><a href="#location" data-toggle="tab">Lokasyon</a></li>
-                <li><a href="#member" data-toggle="tab">Üyeler</a></li>
-                <li><a href="#widget" data-toggle="tab">Site Eklentisi</a></li>
-            </ul>
+<form class="form-horizontal frm-organization-edit" style="margin-top:20px;">
+    <fieldset>
+        <div class="control-group">
+            <label class="control-label" style="text-align: left;" for="organization_name">Organizasyon Adı</label>
+            <div class="controls">
+                <input class="input-xlarge" name="name" id="organization_name" type="text" value="<%= organization_name %>" />
+                <p class="help-block"></p>
+            </div>
+
         </div>
-        <div class="tab-content" style="float:left; width:650px;">
-            <div class="tab-pane active" id="settings">
-                <h3>Ayarlar</h3>
-
-                <form class="form-horizontal frm-organization" style="margin-top:20px;">
-                    <fieldset>
-                        <div class="control-group">
-                            <label class="control-label" style="text-align: left;" for="organization_name">Organizasyon Adı</label>
-                            <div class="controls">
-                                <input class="input-xlarge" name="name" id="organization_name" type="text" value="<%= organization_name %>" />
-                                <p class="help-block"></p>
-                            </div>
-
-                        </div>
-                    </fieldset>
-                </form>
-                <div class="form-actions">
-                    <button class="btn btn-primary update-organization" type="submit">Kaydet</button>
-                    <button class="btn" type="reset">İptal</button>
-                </div>
+    </fieldset>
+</form>
+<div class="form-actions">
+    <button class="btn btn-primary" id="update-organization" type="submit">Kaydet</button>
+    <button class="btn" type="reset">İptal</button>
+</div>
 
 
-                <div class="row" style="padding-left: 20px;">
-                    <div class="alert alert-block alert-error fade in">
+<div class="row" style="padding-left: 20px;">
+    <div class="alert alert-block alert-error fade in">
 
-                        <h4 class="alert-heading">Organizasyonu Sil!</h4>
-                        <p>
-                            Organizasyonu sildiğinizde, tüm etkinlikler, kategori ve lokasyon tanımlarınızı kaybedeceksiniz.<br/>
-                            Silmek istediğinizden emin misiniz?
-                        </p>
-                        <p>
-                            <a href="#" class="btn btn-danger delete-organization">Evet, Son Kararım</a>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="tab-pane" id="category">
-                <h3>Kategori</h3>
-
-                <form class="form-horizontal" style="margin-top:20px;">
-                    <fieldset>
-                        <div class="control-group">
-                            <label class="control-label" style="text-align: left;" for="fullname">Organizasyon Adı</label>
-                            <div class="controls">
-                                <input class="input-xlarge" name="catgory_name"  type="text" value="Cihangir Yoga" />
-                                <p class="help-block"></p>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="controls">
-                                Balkan Yerleşkesi
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-
-
-            </div>
-            <div class="tab-pane" id="location">
-                <h3>Lokasyon</h3>
-            </div>
-            <div class="tab-pane" id="member">
-                <h3>Üyeler</h3>
-            </div>
-            <div class="tab-pane" id="widget">
-                <h3>Site Eklentisi</h3>
-                <br/>
-                <textarea style="width:650px" rows="5"><a href="http://pinterest.com/hasanozgan/"><img src="https://a248.e.akamai.net/passets.pinterest.com.s3.amazonaws.com/images/about/buttons/follow-me-on-pinterest-button.png" width="169" height="28" alt="Follow Me on Pinterest" /></a></textarea>
-            </div>
-        </div>
+        <h4 class="alert-heading">Organizasyonu Sil!</h4>
+        <p>
+            Organizasyonu sildiğinizde, tüm etkinlikler, kategori ve lokasyon tanımlarınızı kaybedeceksiniz.<br/>
+            Silmek istediğinizden emin misiniz?
+        </p>
+        <p>
+            <a href="#" id="delete-organization" class="btn btn-danger">Evet, Son Kararım</a>
+        </p>
     </div>
-
-
 </div>

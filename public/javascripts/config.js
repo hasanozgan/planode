@@ -9,6 +9,7 @@ require.config({
         fullcalendar: 'lib/fullcalendar-1.5.3',
         timepicker: 'lib/jquery.timepicker',
         spin: 'lib/jquery.spin-1.0.2',
+        cookie: 'lib/jquery.cookie',
         md5: 'lib/md5',
 //        datepicker: 'lib/bootstrap-datepicker',
 

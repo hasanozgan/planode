@@ -37,3 +37,36 @@ input {
 .search-query {
     height: 28px;
 }
+
+.organization-list {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.organization-item {
+    float:left;
+    padding: 5px 0 5px 0;
+    background-color: #FFFFFF;
+    width: 270px;
+}
+
+.organization-item.active {
+    background-color: #EFEFEF;
+}
+
+.organization-actions {
+    margin-top: 7px;
+    float:left;
+    display: none;
+    text-decoration: none;
+}
+
+.organization-actions.active {
+    display: inline-block;
+}
+
+.organization-actions > a {
+    color: #000;
+    text-decoration: none;
+}

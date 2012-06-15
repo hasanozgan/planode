@@ -43,7 +43,7 @@ define([
 
                 App.action = Backbone.history.getHash();
 
-                var data = { "organizations" : App.organizations };
+                var data = { "organizations" : App.organizations.sort(function(a, b) { return ((a.id > b.id) ? -1 : 1) }) };
                 var compiledTemplate = _.template(SideBarTemplate, data);
                 $("#sidebar").html(compiledTemplate);
 

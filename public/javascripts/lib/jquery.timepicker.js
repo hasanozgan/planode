@@ -423,12 +423,12 @@ requires jQuery 1.6+
 		var minutes = Math.round(seconds/60);
 
 		if (minutes < 60) {
-			return minutes+' mins'
+			return minutes+' dk'
 		} else if (minutes == 60) {
 			return '1 hr';
 		} else {
 			var hours = minutes/60
-			return hours.toFixed(1)+' hrs';
+			return hours.toFixed(1)+' saat';
 		}
 	};
 

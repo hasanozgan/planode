@@ -10,7 +10,7 @@ define([
   'app/views/account/login',
   'app/views/account/signup',
   'app/views/account/forgot',
-  'app/views/organization/settings',
+  'app/views/organization/panel',
   'app/views/account/calendar'
 //  'app/views/home/main',
   //'app/views/organization/category'
@@ -37,6 +37,7 @@ define([
 
             App = {
                 router: this,
+                organizations: [],
 
                 getOrganization: function (o_id) {
 
@@ -63,13 +64,9 @@ define([
                 },
 
                 addOrganization: function (obj) {
-                    if (this.organizations == undefined) {
-                        this.organizations = [];
-                    }
 
                     var found = false;
                     for (var index in this.organizations) {
-
                         if (this.organizations[index].id == obj.id) {
                             found = true;
                         }
@@ -79,6 +76,7 @@ define([
                         this.organizations.push(obj);
                     }
                 },
+
                 authorized: function (options) {
                     if (App.user == undefined) {
                         $.ajax({

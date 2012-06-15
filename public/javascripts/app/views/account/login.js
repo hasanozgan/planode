@@ -126,7 +126,8 @@ define([
                         }
                     },
                     success: function (model, response) {
-                        App.user = response;
+                        App.user = response.account;
+                        App.organizations = response.organizations;
                         App.router.navigate("calendar", true);
                     }
                 });
