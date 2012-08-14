@@ -123,6 +123,125 @@
     color: white;
 }
 
+.fc-agenda-list-container .calendar-01, .fc-agenda-list-container .calendar-01 .fc-event-skin {
+    border-color: white;
+    background-color: white;
+    color: #C56D83;
+}
+
+.fc-agenda-list-container .calendar-02, .fc-agenda-list-container .calendar-02 .fc-event-skin {
+    border-color: white;
+    background-color: white;
+    color: #7B7EB7;
+}
+
+.fc-agenda-list-container .calendar-03, .fc-agenda-list-container .calendar-03 .fc-event-skin {
+    border-color: white;
+    background-color: white;
+    color: #82B1B1;
+}
+
+.fc-agenda-list-container .calendar-04, .fc-agenda-list-container .calendar-04 .fc-event-skin {
+    border-color: white;
+    background-color: white;
+    color: #8DA857;
+}
+
+.fc-agenda-list-container .calendar-05, .fc-agenda-list-container .calendar-05 .fc-event-skin {
+    border-color: white;
+    background-color: white;
+    color: #DD9056;
+}
+
+.fc-agenda-list-container .calendar-06, .fc-agenda-list-container .calendar-06 .fc-event-skin {
+    border-color: white;
+    background-color: white;
+    color: #DEB754;
+}
+
+.calendar-07 {
+    border-color: white;
+    background-color: white;
+    color: #6989BA;
+}
+
+.calendar-08 {
+    border-color: #8CA5CA;
+    background-color: #8CA5CA;
+    color: white;
+}
+
+.calendar-09 {
+    border-color: #AFC0DA;
+    background-color: #AFC0DA;
+    color: white;
+}
+
+.calendar-10 {
+    border-color: #95BDCE;
+    background-color: #95BDCE;
+    color: white;
+}
+
+.calendar-11 {
+    border-color: #B3AFDA;
+    background-color: #B3AFDA;
+    color: white;
+}
+
+.calendar-12 {
+    border-color: #DAAFC9;
+    background-color: #DAAFC9;
+    color: white;
+}
+.calendar-13 {
+    border-color: #E1A9A8;
+    background-color: #E1A9A8;
+    color: white;
+}
+
+.calendar-14 {
+    border-color: #E1CBA8;
+    background-color: #E1CBA8;
+    color: white;
+}
+
+.calendar-15 {
+    border-color: #E0E1A8;
+    background-color: #E0E1A8;
+    color: white;
+}
+
+.calendar-16 {
+    border-color: #75B475;
+    background-color: #75B475;
+    color: white;
+}
+
+.calendar-17 {
+    border-color: #93BF79;
+    background-color: #93BF79;
+    color: white;
+}
+
+.calendar-18 {
+    border-color: #B5CA7E;
+    background-color: #B5CA7E;
+    color: white;
+}
+
+.calendar-19 {
+    border-color: #D3CC84;
+    background-color: #D3CC84;
+    color: white;
+}
+
+.calendar-20 {
+    border-color: #DBB78B;
+    background-color: #DBB78B;
+    color: white;
+}
+
 /*
     title="#B5CA7E"></span><span class="swatch_3d_32" style="background-color: rgb(211, 204, 132);"
     title="#D3CC84"></span><span class="swatch_3d_32" style="background-color: rgb(219, 183, 139);"

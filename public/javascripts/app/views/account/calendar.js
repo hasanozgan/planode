@@ -139,6 +139,9 @@ define([
                     agenda: 'Ajanda'
                 },
 
+                //events: '/myfeed.php'//,
+
+
                 events: [
                     {
                         title: 'All Day Event',

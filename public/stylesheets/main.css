@@ -70,3 +70,22 @@ input {
     color: #000;
     text-decoration: none;
 }
+
+.fc-agenda-list-container {
+    display: block;
+}
+
+th.fc-agenda-list-container  {
+    font-weight: bold;
+    text-align: left;
+}
+
+td.fc-agenda-list-container  {
+    font-weight: normal;
+}
+
+.fc-agenda-list-day {
+    width:120px;
+    text-align:left;
+    padding:3px;
+}

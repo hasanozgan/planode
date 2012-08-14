@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16405b4e-2289-4839-82c6-2a0c9d329cdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/category.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/location.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/members.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/members.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/panel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Organization.scala" afterPath="$PROJECT_DIR$/app/controllers/Organization.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/main.scala.html" afterPath="$PROJECT_DIR$/app/views/layouts/main.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/router.js" afterPath="$PROJECT_DIR$/public/javascripts/app/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planode.iml" afterPath="$PROJECT_DIR$/planode.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/login.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/account/signup.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/account/signup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/common/sidebar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/event/create.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/event/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/home/main.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/home/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/config.js" afterPath="$PROJECT_DIR$/public/javascripts/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js" afterPath="$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/app/views/organization/members.html" afterPath="$PROJECT_DIR$/public/javascripts/app/views/organization/members.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/lib/fullcalendar-1.5.3.js" afterPath="$PROJECT_DIR$/public/javascripts/lib/fullcalendar-1.5.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/calendar-colors.css" afterPath="$PROJECT_DIR$/public/stylesheets/calendar-colors.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/fullcalendar.css" afterPath="$PROJECT_DIR$/public/stylesheets/fullcalendar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <ignored path="planode.iws" />
@@ -114,93 +96,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="location.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/location.js">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="67" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
+            <state line="146" column="0" selection-start="2088" selection-end="2113" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.timepicker.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js">
+      <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/common/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="477" column="27" selection-start="10907" selection-end="10910" vertical-scroll-proportion="0.0">
+            <state line="161" column="22" selection-start="2680" selection-end="2684" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js">
+      <file leaf-file-name="calendar-colors.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/calendar-colors.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0">
+            <state line="124" column="0" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.08152174">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html">
+      <file leaf-file-name="AgendaListEventRenderer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/agenda/AgendaListEventRenderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
+            <state line="326" column="16" selection-start="10834" selection-end="10834" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home/main.html">
+      <file leaf-file-name="date_util.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/date_util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="295" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="16" column="4" selection-start="354" selection-end="372" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/event/create.html">
+      <file leaf-file-name="AgendaListView.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/agenda/AgendaListView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="36" selection-start="1977" selection-end="1984" vertical-scroll-proportion="0.0">
+            <state line="177" column="43" selection-start="4482" selection-end="4485" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <file leaf-file-name="util.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="129" column="32" selection-start="2588" selection-end="2595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/main.scala.html">
+      <file leaf-file-name="defaults.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/defaults.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="62" selection-start="627" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="32" column="34" selection-start="546" selection-end="564" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/login.js">
+      <file leaf-file-name="fullcalendar.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/build/fullcalendar/fullcalendar/fullcalendar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="3" selection-start="5049" selection-end="5050" vertical-scroll-proportion="0.4347826">
-              <folding>
-                <element signature="e#243#5016#0" expanded="false" />
-              </folding>
+            <state line="2467" column="13" selection-start="55757" selection-end="55757" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgot.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/forgot.html">
+      <file leaf-file-name="_loader.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/_loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="60" column="31" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,22 +199,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/category.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/members.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/widget.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/panel.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/location.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/location.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/home/main.html" />
         <option value="$PROJECT_DIR$/public/javascripts/app/views/event/create.html" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
         <option value="$PROJECT_DIR$/app/views/layouts/main.scala.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/organization/members.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js" />
+        <option value="$USER_HOME$/Desktop/list.html" />
+        <option value="$PROJECT_DIR$/../../labs/fullcalendar/demos/agenda-list.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/lib/fullcalendar-1.5.3.js" />
+        <option value="$PROJECT_DIR$/../../labs/fullcalendar/src/_loader.js" />
+        <option value="$PROJECT_DIR$/../../labs/fullcalendar/src/defaults.js" />
+        <option value="$PROJECT_DIR$/../../labs/fullcalendar/src/agenda/AgendaListView.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/../../labs/fullcalendar/src/main.css" />
+        <option value="$PROJECT_DIR$/../../labs/fullcalendar/src/agenda/AgendaListEventRenderer.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/calendar-colors.css" />
       </list>
     </option>
   </component>
@@ -271,30 +251,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="planode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,6 +280,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,6 +434,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -605,6 +569,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -651,6 +629,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="planode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -662,19 +664,19 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../netology/planode/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../labs/fullcalendar/src/common" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="last.edited.regexp" value="hasan@ozgan.net" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -701,22 +703,7 @@
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -730,7 +717,29 @@
         <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
+        <option name="RakeTask" enabled="false" />
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -750,6 +759,7 @@
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
+        <option name="RakeTask" enabled="false" />
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
       </method>
     </configuration>
@@ -772,18 +782,8 @@
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
+        <option name="RakeTask" enabled="false" />
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -811,7 +811,20 @@
         <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
         <option name="PhingTarget" enabled="false" />
+        <option name="RakeTask" enabled="false" />
         <option name="SBT.BeforeRunTask" enabled="false" runInCurrentModule="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
     <configuration default="false" name="Unnamed" type="Remote" factoryName="Remote">
@@ -878,16 +891,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -980,87 +997,107 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/members.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="10" selection-start="311" selection-end="1383" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="283" selection-end="347" vertical-scroll-proportion="-9.230769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="402" selection-end="402" vertical-scroll-proportion="-5.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="390" selection-end="402" vertical-scroll-proportion="-5.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/organization/location.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="67" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/lib/jquery.timepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="477" column="27" selection-start="10907" selection-end="10910" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2308" selection-end="2308" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/common/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/home/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="295" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/event/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="1977" selection-end="1984" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/main.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="62" selection-start="627" selection-end="628" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/forgot.html">
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/intro.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/login.js">
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="3" selection-start="5049" selection-end="5050" vertical-scroll-proportion="0.4347826">
-          <folding>
-            <element signature="e#243#5016#0" expanded="false" />
-          </folding>
+        <state line="31" column="76" selection-start="705" selection-end="705" vertical-scroll-proportion="0.8949495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/build/fullcalendar/demos/agenda-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/lib/fullcalendar-1.5.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5650" column="0" selection-start="167880" selection-end="186307" vertical-scroll-proportion="-3.5681818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/app/views/account/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="79" selection-start="871" selection-end="871" vertical-scroll-proportion="0.41845495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="18" selection-start="1345" selection-end="1345" vertical-scroll-proportion="0.73867595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="0" selection-start="2088" selection-end="2113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/common/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="22" selection-start="2680" selection-end="2684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/agenda/AgendaListEventRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="326" column="16" selection-start="10834" selection-end="10834" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/date_util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="354" selection-end="372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/agenda/AgendaListView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="43" selection-start="4482" selection-end="4485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="32" selection-start="2588" selection-end="2595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/defaults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="34" selection-start="546" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/build/fullcalendar/fullcalendar/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2467" column="13" selection-start="55757" selection-end="55757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../labs/fullcalendar/src/_loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="31" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/calendar-colors.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="0" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.08152174">
+          <folding />
         </state>
       </provider>
     </entry>
