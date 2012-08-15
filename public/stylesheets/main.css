@@ -88,4 +88,6 @@ td.fc-agenda-list-container  {
     width:120px;
     text-align:left;
     padding:3px;
+    border-top: 1px solid #DEDEDE;
+    margin-top: 20px;
 }
